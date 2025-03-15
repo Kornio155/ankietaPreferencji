@@ -4,11 +4,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="ankietaPreferencji.MainWindow"
-        Title="ankietaPreferencji">
+        Title="Ankieta preferencji">
     
         <StackPanel Margin="20" HorizontalAlignment="Center" Background="#91bbff" >
                 <TextBlock HorizontalAlignment="Center">Jak masz na imię?</TextBlock> 
-                <TextBox x:Name="InputTextBox" Margin="10, 0, 10, 10" Width="200"/>
+                <TextBox x:Name="name" Margin="10, 0, 10, 10" Width="200"/>
                 <TextBlock Margin="10, 0, 10, 0" HorizontalAlignment="Center">Wybierz swoje zainteresowania: </TextBlock>
                 <ComboBox x:Name="ComboBox" SelectedIndex="0" Width="200" Margin="10, 0, 10, 10" HorizontalAlignment="Center">
                         <ComboBoxItem>Wybierz</ComboBoxItem>
@@ -27,17 +27,14 @@
                                 <RowDefinition Height="Auto"/>
                                 <RowDefinition  Height="auto"/>
                         </Grid.RowDefinitions>
-                        <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="auto"/>
-                                <ColumnDefinition Width="*"/>
-                                <ColumnDefinition Width="2"/>
-                        </Grid.ColumnDefinitions>
-                        <CheckBox Grid.Row="1">Czy lubisz podróże?</CheckBox>
-                        <CheckBox Grid.Row="2">Czy kiedykolwiek byłeś/aś za granicą?</CheckBox>
-                        <CheckBox Grid.Row="3">Czy chciałbyś okrążyć świat></CheckBox>
+                        <CheckBox x:Name="C1" Grid.Row="1">Czy lubisz podróże?</CheckBox>
+                        <CheckBox x:Name="C2" Grid.Row="2">Czy kiedykolwiek byłeś/aś za granicą?</CheckBox>
+                        <CheckBox x:Name="C3" Grid.Row="3">Czy chciałbyś okrążyć świat></CheckBox>
                 </Grid>
                 <Button HorizontalAlignment="Center" x:Name="ShowSurvey" Background="#4271bd" Click="ShowSurvey_Click">Wyświetl wyniki ankiety</Button>
-                <TextBlock HorizontalAlignment="Center">Tu po kliknięciu pojawią się wyniki</TextBlock>
+                <TextBlock x:Name="tname" HorizontalAlignment="Center">Tu pojawi się imię.</TextBlock>
+                <TextBlock x:Name="kategoria" HorizontalAlignment="Center">Tutaj pojawi się wybrana kategoria</TextBlock>
+                <TextBlock x:Name="wyniki" HorizontalAlignment="Center">A tu po pojawią się wyniki.</TextBlock>
         </StackPanel>
         
 </Window>

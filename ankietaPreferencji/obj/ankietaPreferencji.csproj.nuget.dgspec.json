@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/kornelj/RiderProjects/ankietaPreferencji/ankietaPreferencji/ankietaPreferencji.csproj": {}
+    "C:\\Users\\korne\\RiderProjects\\ankietaPreferencji\\ankietaPreferencji\\ankietaPreferencji.csproj": {}
   },
   "projects": {
-    "/home/kornelj/RiderProjects/ankietaPreferencji/ankietaPreferencji/ankietaPreferencji.csproj": {
+    "C:\\Users\\korne\\RiderProjects\\ankietaPreferencji\\ankietaPreferencji\\ankietaPreferencji.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/kornelj/RiderProjects/ankietaPreferencji/ankietaPreferencji/ankietaPreferencji.csproj",
+        "projectUniqueName": "C:\\Users\\korne\\RiderProjects\\ankietaPreferencji\\ankietaPreferencji\\ankietaPreferencji.csproj",
         "projectName": "ankietaPreferencji",
-        "projectPath": "/home/kornelj/RiderProjects/ankietaPreferencji/ankietaPreferencji/ankietaPreferencji.csproj",
-        "packagesPath": "/home/kornelj/.nuget/packages/",
-        "outputPath": "/home/kornelj/RiderProjects/ankietaPreferencji/ankietaPreferencji/obj/",
+        "projectPath": "C:\\Users\\korne\\RiderProjects\\ankietaPreferencji\\ankietaPreferencji\\ankietaPreferencji.csproj",
+        "packagesPath": "C:\\Users\\korne\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\korne\\RiderProjects\\ankietaPreferencji\\ankietaPreferencji\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/kornelj/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\korne\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -36,9 +36,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -81,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/kornelj/.dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\korne\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
